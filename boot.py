@@ -106,6 +106,11 @@ def function_sk_server():
                     time.sleep(0.15)
                     p14.value(0)
                     time.sleep(0.15)
+                    f = open("shandeng.html", "r", encoding="utf-8")
+                    body = str(f.read())
+                    file = response_line + response_header + response_blank + body
+                    data.send(file.encode())
+                    f.close()
                 
                 
             data.close()
