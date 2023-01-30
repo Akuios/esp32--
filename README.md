@@ -8,3 +8,6 @@
 
 # 需要注意的地方
 由于考虑到不同人使用的环境问题，可以修改在boot.py文件里修改要连接的WiFi名称，WiFi密码，端口号，esp32对应输出的pin。
+
+# 网页效果图
+![Image text](https://github.com/Akuios/esp32-webled/blob/2806a89f19de611d11e30d45b3c378dcf26a6eb8/img/IMG_20230130_205809.jpg)
